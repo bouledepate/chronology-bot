@@ -1,0 +1,21 @@
+{
+  "name": "bouledepate/chronology-bot",
+  "description": "Telegram bot with code name 'Chronology'",
+  "type": "project",
+  "require": {
+    "slim/slim": "^4.11",
+    "php-di/php-di": "^7.0",
+    "vlucas/phpdotenv": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bouledepate\\Chronology\\Core": "src/Core"
+    }
+  },
+  "authors": [
+    {
+      "name": "Semyon Shmik",
+      "email": "promtheus815@gmail.com"
+    }
+  ]
+}
